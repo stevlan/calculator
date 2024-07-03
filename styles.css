@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.calculator{
+    display: flex;
+    width:30%;
+    height:50%;
+    flex-direction: column;
+    padding:15px;
+    background-color: black;
+    gap:5px;
+}
+
+.row{
+    flex:1;
+    display: flex;
+    gap:5px;
+}
+
+button{
+    flex: 1;
+    flex-basis:0%;
+    font-size:xx-large;
+    background-color: lightseagreen;
+}
+
+.blue{
+    background-color: lightskyblue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.answer{
+    background-color: gray;
+    flex-grow:1.1;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-left: auto;
+    align-self:center;
+    margin-right:10px;
+    font-size:60px;
+}
+
+.zero{
+    flex:2.1;
+}
